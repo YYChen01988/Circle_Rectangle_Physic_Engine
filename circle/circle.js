@@ -1,7 +1,7 @@
 function Circle(x, y, r) {
   var options ={
     friction: 0.3,
-    restitution: 0.2
+    restitution: 0.5
   }
   this.body = Bodies.circle(x, y, r, options);
   this.r = r;
